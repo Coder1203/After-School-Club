@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Cooper";
+    src: url(Cooper\ Std\ Black.ttf) format("truetype");
+}
+
+.heading {
+    text-align: center;
+    font-family: Cooper;
+    color: green;
+    margin-top: 50px;
+    font-size: 300%;
+    animation-name: animation2;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+}
+
+#image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 30%;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+#line {
+    height: 2%;
+    background-color: orange;
+}
+
+.paragraph {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#heading2 {
+    text-align: center;
+    font-family: Cooper;
+    color: red;
+    margin-top: 20px;
+}
+
+#list {
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 1px solid royalblue;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 0px 6px;
+    border: 1px solid royalblue;
+}
+
+#rowHead {
+    background-color: royalblue;
+    color: white;
+}
+
+#rowHead td {
+    text-align: center;
+    padding: 6px 0px;
+}
+
+a {
+    color: white !important;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    animation-name: animation;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes animation {
+    0% {
+        font-size: 20px;
+    }
+    50% {
+        font-size: 23px;
+    }
+    100% {
+        font-size: 20px;
+    }
+}
+
+@keyframes animation2 {
+    0% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
